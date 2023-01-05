@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.son{
+  width: 500px;
+  height: 400px;
+ 
+  display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 50px;
+  background-color: aqua;
+}
+.main{
+  width: 150px;
+  height: 100px;
+background-color: rgba(128, 255, 0, 0.429);
+  /* margin-left: 200px; */
+}
